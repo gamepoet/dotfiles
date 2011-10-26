@@ -8,10 +8,10 @@ DOTFILES=$(pwd)
 
 cd ~
 
-#relink  .bashrc       $DOTFILES/bash
-#relink  .bashrc       $DOTFILES/bashrc
-#relink  .bash_logout  $DOTFILES/bash_logout
-#relink  .bash_profile $DOTFILES/bash_profile
+relink  .bash         $DOTFILES/bash
+relink  .bashrc       $DOTFILES/bashrc
+relink  .bash_logout  $DOTFILES/bash_logout
+relink  .bash_profile $DOTFILES/bash_profile
 #relink  .gitconfig    $DOTFILES/gitconfig
 relink  .irbrc        $DOTFILES/irbrc
 relink  .vim          $DOTFILES/vim
