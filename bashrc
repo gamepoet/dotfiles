@@ -15,4 +15,10 @@ if [[ $- =~ i ]]; then
 
   # prompt
   source $HOME/.bash/prompt.sh
+
+  # vars
+  source $HOME/.bash/vars.sh
 fi
+
+# Load rvm into the shell (MUST BE LAST)
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
