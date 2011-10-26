@@ -1,9 +1,9 @@
 # is shell interactive?
 if [[ $- =~ i ]]; then
   # commands
-  #for file in $HOME/.bash/commands.d/*; do
-  #  source $file
-  #done
+  for file in $HOME/.bash/commands.d/*; do
+    source $file
+  done
 
   # completion
   for file in $HOME/.bash/completion.d/*; do
