@@ -1,10 +1,35 @@
 " enable vim extensions
 set nocompatible
 
-" pathogen
+" vundle
 filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+
+" setup bundles
+Bundle 'gmarik/vundle'
+" ...
+Bundle 'vim-scripts/a.vim'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'wincent/Command-T'
+Bundle 'tpope/vim-fugitive'
+Bundle 'vim-scripts/FX-HLSL'
+Bundle 'tpope/vim-haml'
+Bundle 'leshill/vim-json'
+Bundle 'tpope/vim-markdown'
+Bundle 'vim-scripts/matchit.zip'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-ragtag'
+Bundle 'tpope/vim-repeat'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'jpalardy/vim-slime'
+Bundle 'msanders/snipmate.vim'
+Bundle 'tpope/vim-surround'
+Bundle 'scrooloose/syntastic'
+Bundle 'godlygeek/tabular'
+Bundle 'gerardo/taglist.vim'
 
 " general appearance and behavior
 filetype plugin indent on
