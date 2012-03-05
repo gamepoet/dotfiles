@@ -53,7 +53,7 @@ set wildmode=list:longest
 set nowrap
 
 " make trailing whitespace visible
-set list listchars=tab:Â»\ ,trail:_
+set list listchars=tab:»\ ,trail:_
 
 " change leader to something easy to reach
 let mapleader = ","
