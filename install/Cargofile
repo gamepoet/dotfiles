@@ -1,0 +1,5 @@
+cargo-cache
+cargo-machete
+cargo-update
+flamegraph
+tokio-console

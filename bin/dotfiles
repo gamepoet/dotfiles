@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+BIN_NAME=$(basename "$0")
+COMMAND_NAME=$1
+SUB_COMMAND_NAME=$2
+
+sub_help() {
+  echo "Usage: $BIN_NAME <command>"
+  echo
+  echo "Commands:"
+  echo "  clean       Clean up caches (brew, cargo)"
+  echo "  edit        Open dotfiles in editor (${VISUAL})"
+  echo "  help        Print this help message"
+  echo "  reload      Reload dotfiles"
+  echo "  update      Update packages and pkg manager (OS, brew, rust)"
+}
+
+sub_help() {
+  echo "$ brew cleanup"
+  brew cleanup
+  echo "$ cargo cache --autoclean"
+  cargo cache --autoclean
+}
+
+sub_edit() {
+  sh -c "${VISUAL} ${DOTFILES_DIR}"
+}
