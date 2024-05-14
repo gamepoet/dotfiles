@@ -1,3 +1,4 @@
+tap 'homebrew/cask-fonts'
 tap 'lotyp/homebrew-formulae'
 
 brew 'coreutils'
@@ -38,3 +39,6 @@ cask 'tdr-nova'
 cask 'visual-studio-code'
 cask 'whatsapp'
 cask 'zoom'
+
+# fonts
+cask 'font-meslo-for-powerlevel10k'

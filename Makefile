@@ -6,7 +6,7 @@ SHELL := env PATH=$(PATH) /bin/bash
 
 all: macos
 
-macos: sudo core-macos packages link
+macos: sudo core-macos packages link oh-my-zsh
 
 core-macos: brew git
 
@@ -15,6 +15,9 @@ packages: brew-packages rust-packages vscode-extensions
 link: stow
 	stow -t $(HOME) runcom
 	stow -t $(HOME)/.config config
+
+oh-my-zsh: git brew-packages
+	. $(DOTFILES_DIR)/install/oh-my-zsh.sh
 
 brew-packages: brew
 	brew bundle --file=$(DOTFILES_DIR)/install/Brewfile || true
