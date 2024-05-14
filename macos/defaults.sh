@@ -3,7 +3,7 @@
 #
 
 # Menu bar: show batter percentage
-defaults write com.apple.menuextra.battery ShowPercent YES
+#defaults write com.apple.menuextra.battery ShowPercent YES
 
 #
 # Dock
