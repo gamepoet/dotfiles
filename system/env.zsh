@@ -11,9 +11,6 @@ export HISTFILE=~/.zsh_history
 # enable colors
 export CLICOLOR=1
 
-# ls colors, see: http://www.linux-sxs.org/housekeeping/lscolors.html
-export LS_COLORS='di=1:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.rb=90'
-
 # Prefer US English and use UTF-8
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
