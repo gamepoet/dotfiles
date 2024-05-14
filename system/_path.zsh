@@ -1,7 +1,7 @@
-HOMEBREW_PREFIX=$(brew --prefix)
+HOMEBREW_PREFIX=/opt/homebrew
 
 prepend-path() {
-  [ -d $1] && PATH="$1:$PATH"
+  [ -d $1 ] && PATH="$1:$PATH"
 }
 
 prepend-path "/bin"

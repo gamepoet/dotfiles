@@ -1,0 +1,26 @@
+[user]
+	name = Ben Scott
+	email = gamepoet@gmail.com
+	signingkey = 4A7F5916F3E72389
+[alias]
+	dc = diff --cached
+	l = log --graph --decorate --oneline --all
+	s = status -sb
+[commit]
+	gpgsign = true
+[core]
+	autocrlf = input
+	excludesfile = ~/.gitignore
+	mergeoptions = --no-ff
+	safecrlf = true
+[diff]
+	renames = true
+[pull]
+	rebase = true
+[push]
+	default = simple
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true

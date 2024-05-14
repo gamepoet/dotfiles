@@ -5,7 +5,7 @@ My HOME away from home.
 ```sh
 sudo softwareupdate -i -a
 xcode-select --install
-bash -c "`curl -fsSL https://raw.githubusercontent.com/gamepoet/dotfiles/master/remote-install.sh`"
+curl -fsSL https://raw.githubusercontent.com/gamepoet/dotfiles/master/remote-install.sh | bash
 cd ~/.dotfiles
 make
 ```

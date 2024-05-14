@@ -1,4 +1,5 @@
 .*.swp
+*.lock.json
 tags
 vim/bundle
 vim/undofiles/*
