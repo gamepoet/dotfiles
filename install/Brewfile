@@ -1,4 +1,3 @@
-tap 'homebrew/cask-fonts'
 tap 'lotyp/homebrew-formulae'
 
 brew 'coreutils'
