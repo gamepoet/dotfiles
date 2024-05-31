@@ -1,6 +1,6 @@
 # editing
 export EDITOR='vim'
-export VISUAL='code'
+export VISUAL='code --wait --new-window'
 
 # history
 export HISTSIZE=32768               # history lines in memory
