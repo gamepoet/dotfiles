@@ -1,5 +1,6 @@
 cargo-cache
 cargo-machete
 cargo-update
+cargo-workspaces
 flamegraph
 tokio-console
