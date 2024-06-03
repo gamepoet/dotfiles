@@ -13,6 +13,7 @@ brew 'parallel'
 brew 'ripgrep'
 brew 'rocksdb'
 brew 'rustup'
+brew 'sqlite'
 brew 'wget'
 
 # casks
