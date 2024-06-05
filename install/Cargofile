@@ -1,6 +1,9 @@
 cargo-cache
 cargo-machete
+cargo-nextest
 cargo-update
+cargo-watch
 cargo-workspaces
 flamegraph
+sea-orm-cli
 tokio-console
