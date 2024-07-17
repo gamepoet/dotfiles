@@ -1,10 +1,12 @@
 tap '1password/tap'
+tap 'hashicorp/tap'
 tap 'lotyp/homebrew-formulae'
 tap 'minio/stable'
 
 brew 'coreutils'
 brew 'ffmpeg'
 brew 'gh'
+brew 'hashicorp/tap/terraform'
 brew 'htop'
 brew 'httpie'
 brew 'imagemagick'
