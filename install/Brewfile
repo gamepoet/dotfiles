@@ -3,6 +3,7 @@ tap 'hashicorp/tap'
 tap 'lotyp/homebrew-formulae'
 tap 'minio/stable'
 
+brew 'awscli'
 brew 'coreutils'
 brew 'ffmpeg'
 brew 'gh'
