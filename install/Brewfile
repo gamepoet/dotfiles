@@ -1,3 +1,4 @@
+tap '1password/tap'
 tap 'lotyp/homebrew-formulae'
 tap 'minio/stable'
 
@@ -21,6 +22,7 @@ brew 'wget'
 
 # casks
 cask '1password'
+cask '1password-cli'
 cask 'alfred@4'
 cask 'dash'
 cask 'discord'
