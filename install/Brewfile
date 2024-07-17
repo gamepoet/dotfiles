@@ -1,9 +1,11 @@
 tap '1password/tap'
+tap 'cargo-lambda/cargo-lambda'
 tap 'hashicorp/tap'
 tap 'lotyp/homebrew-formulae'
 tap 'minio/stable'
 
 brew 'awscli'
+brew 'cargo-lambda/cargo-lambda/cargo-lambda'
 brew 'coreutils'
 brew 'ffmpeg'
 brew 'gh'
