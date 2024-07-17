@@ -15,6 +15,8 @@
 	safecrlf = true
 [diff]
 	renames = true
+[pager]
+	branch = false
 [pull]
 	rebase = true
 [push]
