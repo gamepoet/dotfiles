@@ -22,7 +22,6 @@ brew 'wget'
 # casks
 cask '1password'
 cask 'alfred@4'
-cask 'daisydisk'
 cask 'dash'
 cask 'discord'
 cask 'docker'
