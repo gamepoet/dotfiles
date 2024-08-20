@@ -10,7 +10,7 @@
 	gpgsign = true
 [core]
 	autocrlf = input
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.config/git/ignore
 	mergeoptions = --no-ff
 	safecrlf = true
 [diff]
