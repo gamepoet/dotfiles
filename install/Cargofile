@@ -1,3 +1,5 @@
+cargo-audit
+cargo-bundle
 cargo-cache
 cargo-machete
 cargo-nextest
@@ -6,4 +8,5 @@ cargo-watch
 cargo-workspaces
 flamegraph
 sea-orm-cli
+tauri-cli
 tokio-console
